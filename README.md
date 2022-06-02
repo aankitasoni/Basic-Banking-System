@@ -1,7 +1,7 @@
 # GRIP - Graduate Rotational Internship Program
 The Sparks Foundation Web Development Internship Project.
 
-### Basic Banking System - (https://aankitasoni.github.io/Basic-Banking-System/)
+### Basic Banking System - https://aankitasoni.github.io/Basic-Banking-System/
 The website has the following specification
 
 * A dummy data for upto 10 customers. 
