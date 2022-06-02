@@ -1,0 +1,126 @@
+body {
+  background-color: #fff !important;
+  font-family: 'Roboto', sans-serif;
+  color: #101010 !important;
+}
+
+.btn-success {
+  background-color: rgb(102, 205, 170) !important;
+  color: rgb(32, 11, 11) !important;
+  margin-left: 5px;
+  transition: all 0.3s;
+  margin-bottom: 10px;
+}
+
+.btn-success:hover {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.container {
+  padding: 0;
+  margin: auto;
+}
+
+.my-info {
+  padding-bottom: 0;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif, 'arial';
+  font-weight: 600;
+  font-size: 72px;
+  color: rgb(247, 240, 240);
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif, 'arial';
+  font-weight: 400;
+  font-size: 20px;
+  color: #9b9b9b;
+  line-height: 1.5;
+}
+
+.styled-input label {
+  color: #999;
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+input,
+textarea {
+  padding: 30px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+input:focus~span,
+textarea:focus~span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto;
+}
+
+.submit-btn:hover {
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+@media (max-width: 768px) {
+  .submit-btn {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+}
+
+.table-info, .table-info>td, .table-info>th {
+  background-color: #b8e7fc;
+}
+
+.table-responsive {
+  margin-top: 40px;
+}
+
+/* CopyRight */
+.copyright {
+  border-top: 1px solid #3333334f;
+  background-color: #FFA0A0;
+  padding-top: 20px;
+  color: #7E7474;
+}
+
+.copyright li a {
+  color: #08526d;
+  margin: 0 10px;
+}
+
+.copyright li {
+  display: inline-block;
+  font-size: 20px;
+}
